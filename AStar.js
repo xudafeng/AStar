@@ -18,7 +18,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * ================================================================ */
 
-;(function(root,factory){
+;(function(root, factory){
   'use strict';
   /* amd like aml https://github.com/xudafeng/aml.git */
   if(typeof define === 'function' && define.amd) {
@@ -29,7 +29,7 @@
     /* browser */
     factory(root['passme'] || (root['passme'] = {}));
   }
-})(this,function(exports,undefined){
+})(this, function(exports, undefined){
 
   var mix = function(r,s) {
     for(var i in s) {
