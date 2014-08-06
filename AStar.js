@@ -27,7 +27,7 @@
     return factory(exports);
   }else{
     /* browser */
-    factory(root['passme'] || (root['passme'] = {}));
+    factory(root['AStar'] || (root['AStar'] = {}));
   }
 })(this, function(exports, undefined){
 
