@@ -1,6 +1,7 @@
 AStar
 ===
 
+> JavaScript Implementation of the A* Pathfinding Algorithm
 
 ## License
 
